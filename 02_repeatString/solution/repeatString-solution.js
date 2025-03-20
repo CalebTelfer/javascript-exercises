@@ -1,3 +1,4 @@
+
 const repeatString = function (word, times) {
   if (times < 0) return "ERROR";
   let string = "";
@@ -6,5 +7,4 @@ const repeatString = function (word, times) {
   }
   return string;
 };
-
 module.exports = repeatString;
